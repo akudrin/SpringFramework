@@ -2,23 +2,27 @@ package com.akudrin.springdemo.annotations;
 
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 @Component
 public class TennisCoach implements Coach {
-
+	//Field injection using java technology called Reflection
+	@Autowired
+	@Qualifier("happyFortuneService")
 	private FortuneService fortuneService;
 	
-	// define a default constructor
-	public TennisCoach() {
-		System.out.println(">> TennisCoach: inside default constructor");
-	}
+	/*
+	 * // define a default constructor public TennisCoach() {
+	 * System.out.println(">> TennisCoach: inside default constructor"); }
+	 */
 
-	// define a setter method
-	@Autowired
-	public void setFortuneService(FortuneService theFortuneService) {
-		System.out.println(">> TennisCoach: inside setFortuneService() method");
-		this.fortuneService = theFortuneService;
-	}
+	/*
+	 * // define a setter method
+	 * 
+	 * @Autowired public void setFortuneService(FortuneService theFortuneService) {
+	 * System.out.println(">> TennisCoach: inside setFortuneService() method");
+	 * this.fortuneService = theFortuneService; }
+	 */
 
 	/*
 	 * Constructor dependency injection
