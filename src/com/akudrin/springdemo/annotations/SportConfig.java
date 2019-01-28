@@ -1,11 +1,12 @@
 package com.akudrin.springdemo.annotations;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("com.akudrin.springdemo.annotations")
+//@ComponentScan("com.akudrin.springdemo.annotations")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
 	// define bean for our sad fortune service
 		@Bean
