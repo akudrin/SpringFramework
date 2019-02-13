@@ -1,12 +1,18 @@
 package com.akudrin.hibernate.demo.entity;
 
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -28,26 +34,40 @@ public class Student {
 	@Column(name="last_name")
 	private String lastName;
 	
-    @Column(name="date_of_birth")
-    @Temporal(TemporalType.DATE)    
-    private Date dateOfBirth;
+	/*
+	 * @Column(name="date_of_birth")
+	 * 
+	 * @Temporal(TemporalType.DATE) private Date dateOfBirth;
+	 */
 	
 	@Column(name="email")
 	private String email;
+	
+	
+	@ManyToMany(fetch=FetchType.LAZY,
+			cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+			 CascadeType.DETACH, CascadeType.REFRESH})
+	@JoinTable(
+			name="course_student",
+			joinColumns=@JoinColumn(name="student_id"),
+			inverseJoinColumns=@JoinColumn(name="course_id")
+			)	
+	private List<Course> courses;
 	
 	
 	  public Student() {
 	        
 	    }
 
-	    public Student( String firstName, String lastName, String email, Date theDateOfBirth) {
-	        
-	        this.firstName = firstName;
-	        this.lastName = lastName;
-	        this.email = email;
-	        this.dateOfBirth = theDateOfBirth;
-	        
-	    }
+	/*
+	 * public Student( String firstName, String lastName, String email, Date
+	 * theDateOfBirth) {
+	 * 
+	 * this.firstName = firstName; this.lastName = lastName; this.email = email;
+	 * this.dateOfBirth = theDateOfBirth;
+	 * 
+	 * }
+	 */
 	    
  public Student( String firstName, String lastName, String email) {
 	        
@@ -80,13 +100,12 @@ public class Student {
 		this.lastName = lastName;
 	}
 	
-	public Date getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
+	/*
+	 * public Date getDateOfBirth() { return dateOfBirth; }
+	 * 
+	 * public void setDateOfBirth(Date dateOfBirth) { this.dateOfBirth =
+	 * dateOfBirth; }
+	 */
 
 	public String getEmail() {
 		return email;
@@ -96,10 +115,26 @@ public class Student {
 		this.email = email;
 	}
 
+	public List<Course> getCourses() {
+		return courses;
+	}
+
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
+	}
+	
+	/*
+	 * @Override public String toString() { return "Student [id=" + id +
+	 * ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email +
+	 * ", dateOfBirth=" + DateUtils.formatDate(dateOfBirth) + "]";
+	 * 
+	 * }
+	 */
+	
 	@Override
 	public String toString() {
         return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-                + ", dateOfBirth=" + DateUtils.formatDate(dateOfBirth) + "]";
+                + "]";
 	
 	}
 	
