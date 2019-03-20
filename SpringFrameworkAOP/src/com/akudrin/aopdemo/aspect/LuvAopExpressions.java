@@ -23,11 +23,10 @@ public class LuvAopExpressions {
 	 * }
 	 */
 	
-	@Pointcut("execution(* com.akudrin.aopdemo.dao.*.*(..))")
-	public void forDaoPackage() {}
+		@Pointcut("execution(* com.akudrin.aopdemo.dao.*.*(..))")
+		public void forDaoPackage() {}
 	
-	
-	// create pointcut for getter methods
+		// create pointcut for getter methods
 		@Pointcut("execution(* com.akudrin.aopdemo.dao.*.get*(..))")
 		public void getter() {}
 		
