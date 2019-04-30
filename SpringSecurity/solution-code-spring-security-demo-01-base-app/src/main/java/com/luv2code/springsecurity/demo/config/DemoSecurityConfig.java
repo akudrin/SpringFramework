@@ -27,19 +27,21 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 			.withUser(users.username("susan").password("test123").roles("EMPLOYEE","ADMIN"));
 	}
         
-        @Override
-	protected void configure(HttpSecurity http) throws Exception {
-
-		http.authorizeRequests()
-				.anyRequest().authenticated()
-			.and()
-			.formLogin()
-				.loginPage("/showMyLoginPage")
-				.loginProcessingUrl("/authenticateTheUser")
-				.permitAll()
-                                   .and().logout().permitAll();
-		
-	}
+                @Override
+        protected void configure(HttpSecurity http) throws Exception {
+            http.authorizeRequests()
+                .antMatchers("/").permitAll()  // allow public access to home page
+                .antMatchers("/employees").hasRole("EMPLOYEE")
+                .antMatchers("/leaders/**").hasRole("MANAGER")
+                .antMatchers("/systems/**").hasRole("ADMIN")
+                .and()
+                .formLogin()
+                .loginPage("/showMyLoginPage")
+                .loginProcessingUrl("/authenticateTheUser")
+                .permitAll()
+                .and()
+                .logout().permitAll();
+        }
 	
 }
 
