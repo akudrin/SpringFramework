@@ -10,6 +10,16 @@ public class DemoController {
         public String showLanding() {
             return "landing";
         }
+        
+         @GetMapping("/systems")
+        public String showSystems() {
+            return "systems";
+        }
+        
+             @GetMapping("/leaders")
+        public String showLeaders() {
+            return "leaders";
+        }
      
         @GetMapping("/employees")
         public String showHome() {
