@@ -11,81 +11,91 @@ import com.luv2code.springsecurity.demo.validation.ValidEmail;
 })
 public class CrmUser {
 
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String userName;
+    private String formRole;
 
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String password;
-	
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String matchingPassword;
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String userName;
 
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String firstName;
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String password;
 
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String lastName;
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String matchingPassword;
 
-	@ValidEmail
-	@NotNull(message = "is required")
-	@Size(min = 1, message = "is required")
-	private String email;
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String firstName;
 
-	public CrmUser() {
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String lastName;
 
-	}
+    @ValidEmail
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
+    private String email;
 
-	public String getUserName() {
-		return userName;
-	}
+    public CrmUser() {
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+    }
 
-	public String getPassword() {
-		return password;
-	}
+    public String getUserName() {
+        return userName;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
 
-	public String getMatchingPassword() {
-		return matchingPassword;
-	}
+    public String getPassword() {
+        return password;
+    }
 
-	public void setMatchingPassword(String matchingPassword) {
-		this.matchingPassword = matchingPassword;
-	}
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
-	public String getFirstName() {
-		return firstName;
-	}
+    public String getMatchingPassword() {
+        return matchingPassword;
+    }
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
+    public void setMatchingPassword(String matchingPassword) {
+        this.matchingPassword = matchingPassword;
+    }
 
-	public String getLastName() {
-		return lastName;
-	}
+    public String getFirstName() {
+        return firstName;
+    }
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public String getLastName() {
+        return lastName;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getFormRole() {
+        return formRole;
+    }
+
+    public void setFormRole(String formRole) {
+        this.formRole = formRole;
+    }
 
 }
