@@ -1,7 +1,9 @@
 package com.luv2code.jackson.json.demo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.Arrays;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Customer {
 
 	private int id;
