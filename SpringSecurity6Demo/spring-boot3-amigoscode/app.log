@@ -1,0 +1,927 @@
+2023-01-10 10:12:27,044 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 29024 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 10:12:27,046 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 10:12:27,344 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 10:12:27,348 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:12:27,348 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 10:12:27,348 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 10:12:27,378 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 10:12:27,379 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 317 ms
+2023-01-10 10:12:27,502 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Starting ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:12:27,508 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+                Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-10 10:12:27,512 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:57]
+                Started SpringBoot3AmigoscodeApplication in 0.596 seconds (process running for 5.854)
+2023-01-10 10:12:27,513 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringBoot3AmigoscodeApplication.java:19]
+                Example log from SpringBoot3AmigoscodeApplication
+2023-01-10 10:17:12,606 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-10 10:17:12,606 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532]
+                Initializing Servlet 'dispatcherServlet'
+2023-01-10 10:17:12,607 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554]
+                Completed initialization in 1 ms
+2023-01-10 10:25:03,075 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 29712 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 10:25:03,077 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 10:25:03,447 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 10:25:03,451 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:25:03,452 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 10:25:03,452 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 10:25:03,486 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 10:25:03,486 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 392 ms
+2023-01-10 10:25:03,632 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Starting ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:25:03,640 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+                Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-10 10:25:03,644 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:57]
+                Started SpringBoot3AmigoscodeApplication in 0.703 seconds (process running for 5.962)
+2023-01-10 10:25:03,645 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringBoot3AmigoscodeApplication.java:19]
+                Example log from SpringBoot3AmigoscodeApplication
+2023-01-10 10:25:04,406 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-10 10:25:04,406 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532]
+                Initializing Servlet 'dispatcherServlet'
+2023-01-10 10:25:04,406 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554]
+                Completed initialization in 0 ms
+2023-01-10 10:42:59,022 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 30743 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 10:42:59,024 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 10:42:59,025 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 10:42:59,335 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 10:42:59,338 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:42:59,339 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 10:42:59,339 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 10:42:59,368 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 10:42:59,368 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 327 ms
+2023-01-10 10:42:59,497 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Starting ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:42:59,504 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+                Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-10 10:42:59,508 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:57]
+                Started SpringBoot3AmigoscodeApplication in 0.658 seconds (process running for 5.873)
+2023-01-10 10:42:59,509 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringBoot3AmigoscodeApplication.java:19]
+                Example log from SpringBoot3AmigoscodeApplication
+2023-01-10 10:56:03,818 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 31429 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 10:56:03,820 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 10:56:03,820 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 10:56:04,128 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 10:56:04,132 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:56:04,133 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 10:56:04,133 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 10:56:04,162 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 10:56:04,163 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 324 ms
+2023-01-10 10:56:04,290 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Starting ProtocolHandler ["http-nio-8080"]
+2023-01-10 10:56:04,298 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+                Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-10 10:56:04,302 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:57]
+                Started SpringBoot3AmigoscodeApplication in 0.655 seconds (process running for 5.877)
+2023-01-10 10:56:04,303 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringBoot3AmigoscodeApplication.java:21]
+                Example log from SpringBoot3AmigoscodeApplication
+2023-01-10 10:56:07,035 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-10 10:56:07,035 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532]
+                Initializing Servlet 'dispatcherServlet'
+2023-01-10 10:56:07,036 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554]
+                Completed initialization in 1 ms
+2023-01-10 13:24:51,324 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 38199 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:24:51,326 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:24:51,326 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:24:51,556 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:24:51,564 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:24:51,741 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:24:51,745 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:24:51,745 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:24:51,745 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:24:51,777 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:24:51,778 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 433 ms
+2023-01-10 13:24:51,853 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:24:51,877 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:24:51,944 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:24:51,994 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:24:53,075 ERROR [main] c.z.h.p.HikariPool [HikariPool.java:594]
+                HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "customer" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2788)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:174)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+2023-01-10 13:24:53,078 WARN [main] o.h.e.j.e.i.JdbcEnvironmentInitiator [JdbcEnvironmentInitiator.java:239]
+                HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: database "customer" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2788)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:174)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+2023-01-10 13:24:53,098 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:24:53,222 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51]
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-10 13:24:53,226 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437]
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-10 13:24:53,241 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:227]
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-10 13:24:53,390 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Starting ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:24:53,400 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+                Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-10 13:24:53,404 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:57]
+                Started SpringBoot3AmigoscodeApplication in 2.257 seconds (process running for 7.486)
+2023-01-10 13:24:53,405 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringBoot3AmigoscodeApplication.java:21]
+                Example log from SpringBoot3AmigoscodeApplication
+2023-01-10 13:34:04,916 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650]
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-10 13:41:38,879 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 39464 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:41:38,881 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:41:38,882 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:41:39,105 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:41:39,114 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:41:39,288 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:41:39,291 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:41:39,292 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:41:39,292 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:41:39,323 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:41:39,324 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 420 ms
+2023-01-10 13:41:39,405 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:41:39,426 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:41:39,491 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:41:39,539 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:41:39,653 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ee92e7d
+2023-01-10 13:41:39,654 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:41:39,668 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:41:40,004 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:41:40,004 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:41:40,004 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:41:40,029 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:41:40,030 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:41:40,035 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:41:40,042 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 13:42:12,468 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 39495 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:42:12,470 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:42:12,470 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:42:12,692 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:42:12,701 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:42:12,875 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:42:12,878 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:42:12,879 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:42:12,879 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:42:12,912 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:42:12,913 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 420 ms
+2023-01-10 13:42:12,986 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:42:13,007 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:42:13,072 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:42:13,118 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:42:13,216 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57e03347
+2023-01-10 13:42:13,217 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:42:13,238 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:42:13,551 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:42:13,552 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:42:13,552 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:42:13,556 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:42:13,557 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:42:13,563 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:42:13,570 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 13:46:36,897 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 39726 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:46:36,899 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:46:36,899 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:46:37,123 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:46:37,131 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:46:37,308 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:46:37,312 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:46:37,312 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:46:37,313 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:46:37,347 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:46:37,348 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 427 ms
+2023-01-10 13:46:37,422 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:46:37,443 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:46:37,510 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:46:37,556 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:46:37,656 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ee92e7d
+2023-01-10 13:46:37,656 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:46:37,673 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:46:37,989 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:46:37,989 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:46:37,990 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:46:38,000 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:46:38,001 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:46:38,007 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:46:38,013 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 13:48:03,468 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 40154 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:48:03,470 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:48:03,470 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:48:03,699 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:48:03,708 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:48:03,883 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:48:03,887 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:48:03,887 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:48:03,888 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:48:03,923 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:48:03,924 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 432 ms
+2023-01-10 13:48:03,995 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:48:04,015 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:48:04,077 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:48:04,124 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:48:04,222 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ee92e7d
+2023-01-10 13:48:04,223 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:48:04,244 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:48:04,554 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:48:04,554 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:48:04,554 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:48:04,562 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:48:04,563 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:48:04,568 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:48:04,575 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 13:48:43,215 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 40189 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:48:43,217 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:48:43,217 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:48:43,415 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:48:43,424 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:48:43,596 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:48:43,599 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:48:43,600 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:48:43,600 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:48:43,633 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:48:43,634 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 400 ms
+2023-01-10 13:48:43,706 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:48:43,726 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:48:43,788 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:48:43,833 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:48:43,926 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@759a678a
+2023-01-10 13:48:43,927 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:48:43,944 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:48:44,253 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:48:44,253 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:48:44,253 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:48:44,281 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:48:44,282 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:48:44,287 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:48:44,294 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 13:59:23,226 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 40798 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 13:59:23,228 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 13:59:23,229 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 13:59:23,444 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 13:59:23,453 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 13:59:23,628 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 13:59:23,631 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 13:59:23,632 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 13:59:23,632 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 13:59:23,664 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 13:59:23,665 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 419 ms
+2023-01-10 13:59:23,738 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 13:59:23,758 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 13:59:23,821 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 13:59:23,866 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 13:59:23,969 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ee92e7d
+2023-01-10 13:59:23,970 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 13:59:23,992 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 13:59:24,306 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:59:24,307 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 13:59:24,307 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 13:59:24,319 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 13:59:24,320 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 13:59:24,325 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 13:59:24,332 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-01-10 14:01:36,903 INFO [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:51]
+                Starting SpringBoot3AmigoscodeApplication using Java 17.0.2 with PID 40917 (/Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode/target/classes started by bazlhurman in /Users/bazlhurman/Documents/GitHub/SpringFramework/SpringSecurity6Demo/spring-boot3-amigoscode)
+2023-01-10 14:01:36,905 DEBUG [main] c.a.SpringBoot3AmigoscodeApplication [StartupInfoLogger.java:52]
+                Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-10 14:01:36,905 INFO [main] c.a.SpringBoot3AmigoscodeApplication [SpringApplication.java:630]
+                No active profile set, falling back to 1 default profile: "default"
+2023-01-10 14:01:37,134 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138]
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-10 14:01:37,143 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208]
+                Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-10 14:01:37,347 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+                Tomcat initialized with port(s): 8080 (http)
+2023-01-10 14:01:37,353 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+                Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-10 14:01:37,353 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Starting service [Tomcat]
+2023-01-10 14:01:37,353 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+                Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-10 14:01:37,394 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+                Initializing Spring embedded WebApplicationContext
+2023-01-10 14:01:37,395 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+                Root WebApplicationContext: initialization completed in 469 ms
+2023-01-10 14:01:37,466 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31]
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-10 14:01:37,487 INFO [main] o.h.Version [Version.java:44]
+                HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-10 14:01:37,554 WARN [main] o.h.o.deprecation [MetadataBuilderImpl.java:626]
+                HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-10 14:01:37,607 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110]
+                HikariPool-1 - Starting...
+2023-01-10 14:01:37,702 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565]
+                HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@759a678a
+2023-01-10 14:01:37,703 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123]
+                HikariPool-1 - Start completed.
+2023-01-10 14:01:37,718 INFO [main] SQL dialect [DialectFactoryImpl.java:66]
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-10 14:01:38,027 ERROR [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:426]
+                Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 14:01:38,028 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592]
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+2023-01-10 14:01:38,028 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350]
+                HikariPool-1 - Shutdown initiated...
+2023-01-10 14:01:38,053 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352]
+                HikariPool-1 - Shutdown completed.
+2023-01-10 14:01:38,054 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173]
+                Stopping service [Tomcat]
+2023-01-10 14:01:38,060 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82]
+                
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-10 14:01:38,067 ERROR [main] o.s.b.SpringApplication [SpringApplication.java:820]
+                Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.amigoscode.SpringBoot3AmigoscodeApplication.main(SpringBoot3AmigoscodeApplication.java:20)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [customer]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
