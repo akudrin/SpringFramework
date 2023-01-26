@@ -14,5 +14,11 @@
     <h6 th:text="${post.description}"></h6>
     <div th:text="${post.body}"></div>
 </div>
+
+<form action="uploadMyFile" th:action="@{/uploadMyFile}"
+      method="post" enctype="multipart/form-data">
+    <input type="file" name="myFile" />
+    <input type="submit" />
+</form>
 </body>
 </html>

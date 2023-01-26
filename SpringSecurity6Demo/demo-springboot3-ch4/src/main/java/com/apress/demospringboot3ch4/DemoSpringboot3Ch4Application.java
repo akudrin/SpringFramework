@@ -8,6 +8,7 @@ public class DemoSpringboot3Ch4Application {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoSpringboot3Ch4Application.class, args);
+
     }
 
 }
